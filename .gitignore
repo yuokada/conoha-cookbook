@@ -14,3 +14,19 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+
+
+# Created by https://www.gitignore.io/api/chefcookbook
+
+### ChefCookbook ###
+.vagrant
+/cookbooks
+
+# Bundler
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+# End of https://www.gitignore.io/api/chefcookbook
