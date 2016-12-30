@@ -15,7 +15,7 @@ user username do
   shell '/bin/zsh'
   action :create
 end
-# yuokada ALL=(ALL)       NOPASSWD: ALL
+
 directory home_dir + '/.ssh' do
   owner username
   group 'users'
@@ -30,12 +30,6 @@ template home_dir + '/.ssh/authorized_keys' do
   group 'users'
   mode 00600
   action :create
-end
-
-# hive user
-user 'hive' do
-  supports manage_home: true
-  action :remove
 end
 
 include_recipe 'conoha::packages'
