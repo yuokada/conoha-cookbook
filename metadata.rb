@@ -1,15 +1,7 @@
 name 'conoha'
-maintainer 'The Authors'
+maintainer 'Yukihiro Okada'
 maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures conoha'
-long_description 'Installs/Configures conoha'
-version '0.1.0'
-
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Issues` link
-# issues_url 'https://github.com/<insert_org_here>/conoha/issues' if respond_to?(:issues_url)
-
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Source` link
-# source_url 'https://github.com/<insert_org_here>/conoha' if respond_to?(:source_url)
+license 'MIT'
+description 'Installs/Configures conoha VPS'
+long_description 'Installs/Configures conoha VPS for me'
+version '0.2.0'

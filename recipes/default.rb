@@ -4,7 +4,7 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-username = 'yokada'
+username = 'yuokada'
 home_dir = format('/home/%s', username)
 
 # https://docs.chef.io/resource_user.html
